@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+
+    <!-- tailwind cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+</head>
+<body>
+    
+    <!-- banner -->
+    <div class="parent_div flex flex-col md:flex-row justify-between min-h-[200px] max-w-[1250px] mx-auto">
+
+        <div class="left ">
+            <h1 class="text-[80px] font-bold">It's good<br>tea time at The<br>Tea House</h1>
+            <p class="text[18px] my-10">Tea and Botanical Solutions Supplier Give Optimum<br>Satisfaction To Your Taste Buds.</p>
+            <button class="w-[200px] text-xl text-white h-[64px] rounded-lg bg-gradient-to-l from-[#ff0000] to-[#ff8938] cursor-pointer transition-all duration-300 hover:shadow-[0px_0px_10px_rgba(0,123,255,0.6)] 
+                            hover:-translate-y-[5px]">
+                <span>Explore more</span> <span> <i class="fa-solid fa-arrow-right -rotate-45"></i></span>
+            </button>
+        </div>
+
+        <div class="right relative">
+            <img src="images/banner.png" class="relative top-[100px]" alt="">
+            <div class="flex items-center bg-white w-[255px] h-[100px] rounded-lg shadow-md absolute left-[100px]">
+                <span class="text-4xl"><i class="fa-solid fa-star"></i> </span>
+                <div class="ml-4">
+                    <p class=" text-4xl font-bold">5.00</p>
+                    <p>Trust Pilot Ratings</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- featured section -->
+    <section class="min-h-[200px] max-w-[1250px] mx-auto mt-[200px]">
+        <h1 class="text-5xl text-center font-bold">Our Featured Products</h1>
+        <p class="text-center mt-[20px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+            form,by injected humour, or randomised words which don't look even slightly believable.</p>
+
+    <div class="featured_parent grid gird-cols-1 md:grid-cols-4 gap-5 min-h-[200px] mt-[50px]">
+        <div class="card rounded-[10px] bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F400] w-[267px] h-[391px] transition-all duration-300 hover:shadow-[0px_0px_10px_rgba(0,123,255,0.6)] 
+                            hover:-translate-y-[5px]">
+            <img src="images/tea-1.png" alt="" class="mx-auto mt-[20px]">
+            <h1 class="text-2xl text-center font-bold mt-[40px]">Milk Tea</h1>
+            <p class=" text-center">Creamer could be replaced by fresh milk</p>
+        </div>
+
+        <div class="card rounded-[10px] bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F400] w-[267px] h-[391px] transition-all duration-300 hover:shadow-[0px_0px_10px_rgba(0,123,255,0.6)] 
+                                    hover:-translate-y-[5px]">
+            <img src="images/tea-2.png" alt="" class="mx-auto mt-[20px]">
+            <h1 class="text-2xl text-center font-bold mt-[40px]">Black Tea</h1>
+            <p class=" text-center">Creamer could be replaced by fresh milk</p>
+        </div>
+
+        <div class="card rounded-[10px] bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F400] w-[267px] h-[391px] transition-all duration-300 hover:shadow-[0px_0px_10px_rgba(0,123,255,0.6)] 
+                                    hover:-translate-y-[5px]">
+            <img src="images/tea-3.png" alt="" class="mx-auto mt-[20px]">
+            <h1 class="text-2xl text-center font-bold mt-[40px]">Lemon Tea</h1>
+            <p class=" text-center">Creamer could be replaced by fresh milk</p>
+        </div>
+
+        <div class="card rounded-[10px] bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F400] w-[267px] h-[391px] transition-all duration-300 hover:shadow-[0px_0px_10px_rgba(0,123,255,0.6)] 
+                                    hover:-translate-y-[5px]">
+            <img src="images/tea-4.png" alt="" class="mx-auto mt-[20px]">
+            <h1 class="text-2xl text-center font-bold mt-[40px]">Green Tea</h1>
+            <p class=" text-center">Creamer could be replaced by fresh milk</p>
+        </div>
+
+       
+    </div>
+    </section>
+
+    <!-- great tea section  -->
+     <div class="parent flex flex-col md:flex-row min-h-[600px] max-w-[1250px] mx-auto mt-[150px] gap-15 p-5">
+        <div class="left grid grid-cols-2 grid-rows-3 gap-6 h-full md:w-1/2 ">
+            <div class="bg-gradient-to-r from-[#ff0000] to-[#ff8938] opacity-10 rounded-[10px]"></div>
+            <div class="bg-[#E6A6231a] rounded-[10px] row-span-2 flex justify-center items-center">
+                <img src="images/fresh-1.png" alt="">
+            </div>
+            <div class="bg-[#5776391a] rounded-[10px] row-span-2 flex justify-center items-center">
+                <img src="images/fresh-2.png" alt="">
+            </div>
+            <div class="bg-gradient-to-r from-[#D9D9D9] to-[#FFFFFF] rounded-[10px]"></div>
+        </div>
+        <div class="right h-full md:w-1/2">
+            <h1 class="text-5xl font-bold">Great Tea, Freshly<br>Presented</h1>
+            <p class="my-10">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the
+            highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers because
+            of good words of mouth and unique customized service orginated from Taiwan.</p>
+
+            <h2 class="text-xl font-bold">Unique Taste</h2>
+            <p class="my-5">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+
+            <h2 class="texr-xl font-bold">Premium Quality</h2>
+            <p class="mt-5">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+        </div>
+
+     </div>
+
+     <!-- clint section -->
+    <section class="min-h-[600px] max-w-[1250px] mx-auto mt-[150px] rounded-[10px] p-8 bg-[linear-gradient(270deg,rgba(255,0,0,1),rgba(255,137,56,1)_100%)] rouned-[10px]">
+        <div class="parentdiv flex flex-col md:flex-row items-center">
+            <div class="left_div md:w-1/2 relative bg-no-repeat bg-contain bg-left"
+                style="background-image: url('images/bg_cup.png');">
+                <div class="relative z-10">
+                    <h1 class="text-5xl text-white font-bold">Meet Our Super<br>Clients</h1>
+                    <p class="text-gray-300 my-10 mb-5">
+                        There are many variations of passages of Lorem Ipsum<br>available, but the
+                        majority have suffered alteration in some<br>form, by injected humour,
+                        or randomised words which don't<br>look even slightly believable.
+                    </p>
+                    <button class="transition-all duration-300 hover:shadow-[0px_0px_10px_rgba(0,123,255,0.6)]
+                             hover:-translate-y-[5px] hover:bg-gray-200 cursor-pointer rounded-[8px] w-[139px] h-[54px]
+                             bg-white flex items-center justify-center text-xl font-bold">
+                        <span class="bg-gradient-to-l from-[#ff0000] to-[#ff8938] bg-clip-text text-transparent">
+                            Show All
+                        </span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- <div class="right_div md:w-1/2 relative space-y-5 ">
+    
+                <div class="card bg-white rounded-[10px] p-4 h-[230px] w-[400px] relative left-30 top-35 opacity-30">
+                    <div class="absolute -left-7 -top-5 rounded-full bg-white p-1">
+                        <img src="./images/client.png" alt="">
+                    </div>
+                    <p class="text-gray-500 mb-5">We are providing the best and suitable home insurance services for the
+                        people
+                        who are interested to treatment</p>
+                    <h4 class="font-bold mb-1">Ilham Yuda</h4>
+                    <h4>Businessman</h4>
+                    <div class="absolute right-45 bottom-5 ">
+                        <img src="./images/circles.png" alt="">
+                    </div>
+                </div>
+                <div class="card bg-white rounded-[10px] p-4 h-[230px] w-[400px] relative z-10">
+                    <div class="absolute -left-7 -top-5 rounded-full bg-white p-1">
+                        <img src="./images/client.png" alt="">
+                    </div>
+                    <p class="text-gray-500 mb-5">We are providing the best and suitable home insurance services for the
+                        people
+                        who are interested to treatment</p>
+                    <h4 class="font-bold mb-1">Ilham Yuda</h4>
+                    <h4>Businessman</h4>
+                    <div class="absolute right-45 bottom-5 ">
+                        <img src="./images/circles.png" alt="">
+                    </div>
+                </div>
+                <div class="card bg-white rounded-[10px] p-4 h-[230px] w-[400px] relative -right-30 bottom-20 opacity-30">
+                    <div class="absolute -left-7 -top-5 rounded-full bg-white p-1">
+                        <img src="./images/client.png" alt="">
+                    </div>
+                    <p class="text-gray-500 mb-5">We are providing the best and suitable home insurance services for the
+                        people
+                        who are interested to treatment</p>
+                    <h4 class="font-bold mb-1">Ilham Yuda</h4>
+                    <h4>Businessman</h4>
+                    <div class="absolute right-45 bottom-5 ">
+                        <img src="./images/circles.png" alt="">
+                    </div>
+                </div>
+            </div> -->
+            <div class="relative py-24">
+                <!-- Middle Card -->
+                <div class="absolute z-10 top-44 md:top-52">
+                    <div class="transition-all duration-300 hover:shadow-[0px_0px_10px_rgba(255,215,0,0.6)] hover:-translate-y-[5px] h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5">
+                        <div class="absolute -top-5 -left-5 bg-white rounded-full">
+                            <img class="p-1" src="./images/client.png" alt="" />
+                        </div>
+                        <div>
+                            <p class="text-gray-500 mb-5">
+                                We are providing the best and suitable home insurance
+                                services for the people who are interested to treatment
+                            </p>
+                            <h1 class="font-bold">Ilham Yuda</h1>
+                            <small class="font-bold text-gray-500">Businessman</small>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- top card -->
+                <div
+                    class="relative left-8 md:left-32 h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5 opacity-40">
+                    <div class="absolute -top-5 -left-5 bg-white rounded-full">
+                        <img class="p-1" src="./images/client.png" alt="" />
+                    </div>
+                    <div>
+                        <p class="text-gray-500 mb-5">
+                            We are providing the best and suitable home insurance services
+                            for the people who are interested to treatment
+                        </p>
+                        <h1 class="font-bold">Ilham Yuda</h1>
+                        <small class="font-bold text-gray-500">Businessman</small>
+                    </div>
+                </div>
+            
+                <!-- bottom card -->
+                <div
+                    class="relative left-8 md:left-32 top-10 h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5 opacity-40">
+                    <div class="absolute -top-5 -left-5 bg-white rounded-full">
+                        <img class="p-1" src="./images/client.png" alt="" />
+                    </div>
+                    <div>
+                        <p class="text-gray-500 mb-5">
+                            We are providing the best and suitable home insurance services
+                            for the people who are interested to treatment
+                        </p>
+                        <h1 class="font-bold">Ilham Yuda</h1>
+                        <small class="font-bold text-gray-500">Businessman</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- news events section  -->
+    <section class="max-w-[1180px] mx-auto mt-10">
+        <h1 class="text-4xl text-center font-bold mt-10">News & Events</h1>
+        <p class="text-center mt-4 text-gray-500">There are many variations of passages of Lorem Ipsum available, but the
+            majority have suffered alteration in some form, by injected humour, or randomised words which don't look even
+            slightly believable. </p>
+        <div class="cards grid lg:grid-cols-3  gap-5 grid-cols-1 mt-10">
+            <div class="transition-all duration-300 hover:shadow-[0px_0px_10px_rgba(0,123,255,0.6)] 
+                            hover:-translate-y-[5px] card rounded-xl p-4 border border-gray-300">
+                <div class="w-full flex justify-center">
+                    <img src="./images/news-1.png" alt="">
+                </div>
+                <div class="ml-3.5">
+                    <p class="text-gray-600 my-3">Feb 05, 2027</p>
+                    <h2 class="font-bold text-xl">Collecting 8 points for discount</h2>
+                    <p class="text-gray-500 my-2">There are many variations of passages of <br> Lorem Ipsum available.</p>
+                    <button class="font-bold cursor-pointer">Learn More</button>
+                </div>
+            </div>
+            <div class="transition-all duration-300 hover:shadow-[0px_0px_10px_rgba(0,123,255,0.6)] 
+                            hover:-translate-y-[5px] card rounded-xl p-4 border border-gray-300">
+                <div class="w-full flex justify-center">
+                    <img src="./images/news-2.png" alt="">
+                </div>
+                <div class="ml-3.5">
+                    <p class="text-gray-600 my-3">Feb 05, 2027</p>
+                    <h2 class="font-bold text-xl">Collecting 8 points for discount</h2>
+                    <p class="text-gray-500 my-2">There are many variations of passages of <br> Lorem Ipsum available.</p>
+                    <button class="font-bold cursor-pointer">Learn More</button>
+                </div>
+            </div>
+            <div class="transition-all duration-300 hover:shadow-[0px_0px_10px_rgba(0,123,255,0.6)] 
+                            hover:-translate-y-[5px] card rounded-xl p-4 border border-gray-300">
+                <div class="w-full flex justify-center">
+                    <img src="./images/news-3.png" alt="">
+                </div>
+                <div class="ml-3.5">
+                    <p class="text-gray-600 my-3">Feb 05, 2027</p>
+                    <h2 class="font-bold text-xl">Collecting 8 points for discount</h2>
+                    <p class="text-gray-500 my-2">There are many variations of passages of <br> Lorem Ipsum available.</p>
+                    <button class="font-bold cursor-pointer">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- footer section  -->
+    
+    <footer class="bg-[#ff883814] mt-20 w-[full] h-[746px] flex flex-col md:flex-row items-center">
+        <section class="max-w-[1180px] mx-auto py-20  sm:py-10 xs:py-0">
+            <div class="flex justify-between">
+                <img src="./images/cup.png" alt="">
+                <div class="flex items-center gap-4">
+                    <p>Ready to get strated?</p>
+                    <button
+                        class="transition-all duration-300 hover:shadow-[0px_0px_10px_rgba(0,123,255,0.6)] 
+                            hover:-translate-y-[5px] cursor-pointer bg-gradient-to-l from-[rgba(255,0,0,1)] to-[rgba(255,137,56,1)] text-white px-5 py-2.5 border rounded-[10px]">Get
+                        Started</button>
+                </div>
+            </div>
+    
+            <div class="grid grid-cols-1 md:grid-cols-4 mt-15">
+                <div class="text-center md:text-left">
+                    <h4 class="text-xl mb-2 font-bold">Quick Links</h4>
+                    <div class="cursor-pointer flex flex-col gap-2 text-gray-500">
+                        <p class="hover:text-black transition-colors duration-300">Home</p>
+                        <p class="hover:text-black transition-colors duration-300">About Us</p>
+                        <p class="hover:text-black transition-colors duration-300">Insurance</p>
+                        <p class="hover:text-black transition-colors duration-300">Privacy Policy</p>
+                    </div>
+                </div>
+                <div class="text-center md:text-left">
+                    <h4 class="text-xl mb-2 font-bold">Our Service</h4>
+                    <div class="cursor-pointer flex flex-col gap-2 text-gray-500">
+                        <p class="hover:text-black transition-colors duration-300">Life Insurance</p>
+                        <p class="hover:text-black transition-colors duration-300">Car Insurance</p>
+                        <p class="hover:text-black transition-colors duration-300">Health Insurance</p>
+                        <p class="hover:text-black transition-colors duration-300">House Insurance</p>
+                    </div>
+                </div>
+                <div class="text-center md:text-left">
+                    <h4 class="text-xl mb-2 font-bold">Help</h4>
+                    <div class="cursor-pointer flex flex-col gap-2 text-gray-500">
+                        <p class="hover:text-black transition-colors duration-300">FAQs</p>
+                        <p class="hover:text-black transition-colors duration-300">Contact Us</p>
+                    </div>
+                </div>
+                <div class="text-center md:text-left">
+                    <h4 class="font-bold text-2xl">Subscribe to our newsletter</h4>
+                    <input type="email" placeholder="Email address" class="outline-none border-b-2 border-gray-400 my-4">
+                    <button
+                        class="cursor-pointer bg-gradient-to-l from-[rgba(255,0,0,1)] to-[rgba(255,137,56,1)] text-white w-[32px] h-[32px] border rounded-[10px]">></button>
+                    <br>
+                    <div class="cursor-pointer mt-4">
+                        <a href="https://www.facebook.com/tariqul.soykot.01" target="">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        
+                        <a href="https://www.linkedin.com/in/tar1qul/" target="">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        
+                        <a href="https://www.instagram.com/tariqul.soykot.001/" target="">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pt-4 mt-20">
+                <p class="text-bold text-gray-600">All rights reserved by MD. TARIQUL ISLAM.
+                </p>
+            </div>
+        </section>
+    </footer>
+
+
+    
+
+
+</body>
+</html>
